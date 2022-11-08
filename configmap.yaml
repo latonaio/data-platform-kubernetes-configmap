@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-config
+data:
+  DATA_PLATFORM_AUTHENTICATOR_MYSQL_KUBE: "data-platform-authenticator-mysql-kube"
+  MYSQL_USER: "XXXXXXXXXX"
+  MYSQL_PASSWORD: "XXXXXXXXXX"
+  MYSQL_PORT: "XXXXXXXXXX"
+  AUTHENTICATOR_HOST: "data-platform-authenticator"
+  AUTHENTICATOR_PORT: "50500"
+  RMQ_USER: "XXXXXXXXXX"
+  RMQ_PASS: "XXXXXXXXXX"
+  RMQ_ADDRESS: "rabbitmq"
+  RMQ_PORT: "5672"
+  RMQ_VHOST: "data-platform"
+  NESTJS_DATA_PLATFORM_COMMON_SETTINGS_MYSQL_KUBE_URL: "XXXXXXXXXX"
